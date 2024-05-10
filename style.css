@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppines',sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, hwb(120 13% 7%), #ece);
+    padding: 10px;
+}
+.main1{
+    background-color: aliceblue;
+    margin: 100px auto 10px;
+    padding: 60px 30px 70px;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 30px;
+}
+.main1.h1{
+    font-size: 30px;
+    text-align: center;
+}
+.input1{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ece;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    display: flex;
+}
+#input{
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 20px;
+    font-size: 14px;
+    outline: none;
+    background-color: #ece;
+    border-radius: 30px;
+}
+#btn1{
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(135deg, rgba(2, 148, 124, 0.8), #eeccee);
+    border-radius: 30px;
+}
+#btn2{
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(135deg, #0b97e9, #ece);
+    border-radius: 30px;
+}
+.sorting{
+    display: flex;
+    background-color: #ece;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+#cars{
+    padding: 18px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: transparent;
+    flex: 1;
+}
+#btn3{
+    padding: 18px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: transparent;
+    flex: 1;
+    background: linear-gradient(135deg, rgb(241, 30, 30), #f0d2d2);
+}
+#ans{
+    font-size: 30px;
+}
